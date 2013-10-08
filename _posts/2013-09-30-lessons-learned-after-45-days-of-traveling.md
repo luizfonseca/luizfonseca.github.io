@@ -21,7 +21,7 @@ Now, I'm keeping these items as a permanent note to self:
 
 - If you aren't feeling O.K. with something, SAY it;
 - If YOU'RE feeling O.K. with something, SAY it too;
-- Always consideer the whole scenario before expressing yourself. 
+- Always consideer the whole scenario before stating your opinions. 
 
 
 ####2. Don't be lazy. Take the initiative.
