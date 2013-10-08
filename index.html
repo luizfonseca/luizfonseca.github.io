@@ -1,13 +1,32 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Hi, I'm Luiz and this is my blog. Take a sit and enjoy the ride.
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+
+{% for post in site.posts %}
+  <article class="post">
+    <header>
+      <h2><a href="{{post.url}}">{{ post.title }}</a></h2> 
+      <span class="info">
+        <span class="fui-time">{{ post.date | date_to_string }}</span>
+          {% for tag in post.categories %}<span class="tags">{{ tag }}</span>{% endfor %}
+        </span>
+    </header>
+      <div class="post-content">
+        {{ post.content | strip_newlines | truncatewords: 60 }}
+        <a href="{{post.url}}" class="read-more large-16 text-right columns">Read more! </a>
+      </div>
+  </article>
+{% endfor %}
+
+
+
+
+<!--<div id="home">-->
+  <!--<ul class="posts">-->
+    <!--{% for post in site.posts %}-->
+      <!--<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>-->
+    <!--{% endfor %}-->
+  <!--</ul>-->
+<!--</div>-->

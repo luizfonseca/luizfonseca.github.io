@@ -1,44 +1,82 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>{{ page.title }}</title>
+<meta name="viewport" content="width=device-width">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+<!-- fonts -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
 
-    </head>
-    <body>
+<!-- foundation and normalize -->
+<link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/foundation.css">
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
+<!-- syntax highlighting CSS -->
+<link rel="stylesheet" href="/css/syntax.css">
 
-          {{ content }}
+<!-- icon fonts -->
+<link rel="stylesheet" href="/css/icons.css">
 
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
-        </div>
+<!-- Custom CSS -->
+<link rel="stylesheet" href="/css/site.css">
 
-    </body>
+
+<!-- meta tags -->
+
+<meta name="description" content="I'm a Software Engineer, Photographer, Drummer and the guy that will make you smile when you don't want to." />
+<meta name="author" content="Luiz Fonseca, Runeroniek" />
+<meta name="keywords" content="Luiz Fonseca, Blog, Software Development, UX" />
+
+
+<!-- facebook meta tag -->
+<meta property="og:title" content="{{ page.title }}"/>
+<meta property="og:description" content="{{ page.description if page.description }}"/>
+<meta property="og:type" content="blog"/>
+
+
+
+
+</head>
+<body>
+<div class="top-header">
+  <div class="row">
+    <div class="large-16 columns">
+
+      <nav>
+        <a href="/" class="fui-home menu text-left large-2 columns">&nbsp;</a>
+        <a href="/" class="menu text-left large-12 columns">{{ title }}</a>
+        <a href="/#" class="fui-list menu text-right large-2 columns">&nbsp;</a>
+      </nav>
+
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="site row posts">
+  <div class="large-16 columns">
+    {{ content }}
+  </div>
+</div>
+
+<div class="footer row">
+  <div class="contact large-16 columns">
+  </div>
+</div>
+
+</body>
 </html>
