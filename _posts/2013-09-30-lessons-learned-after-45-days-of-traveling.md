@@ -6,7 +6,7 @@ categories: life
 description: "What I've learned after my traveling time from August to September."
 ---
 
-I was thinking about posting this, but I didn't had the guts to do it until now. 
+I was thinking about posting this, but I didn't have the guts to do it until now. 
 The problem is that I'm always too reluctant to state  my opinions. Not because my opinions are wrong or 'cause people will think that they are crazy. The thing is that I'm not comfortable stating them. Most of the time I'd state them with my closest friends, only.
 
 I left this old myself behind. That wasn't me. The "new me" is here. And he doesn't like to keep things to himself.
@@ -50,7 +50,7 @@ Later, I was doing this during the day, not in the end of it anymore. Everytime 
 
 Yes, as you can see, I was becoming paranoid as I was trying to built some kind of "controlled world" where people would only act or say things the way I want. 
 
-Well, guess what? The beautiful thing on our entire existence is the fact that we don't know nothing. We're in a constantly process of building our own life. We can't predict anything, but we're always trying to build something valuable for ourselves. Acting like if you were God is just saying to the world that you aren't ready to the randomness of life. 
+Well, guess what? The beautiful thing on our entire existence is the fact that we don't know anything. We're in a constantly process of building our own life. We can't predict anything, but we're always trying to build something valuable for ourselves. Acting like if you were God is just saying to the world that you aren't ready to the randomness of life. 
 
 It's like saying to everyone that you're afraid of the world and afraid of what life can offer to you.
 
