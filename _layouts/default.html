@@ -41,21 +41,32 @@
 
 </head>
 <body>
-<div class="top-header">
+<div class="row fixed">
+  <div class="large-2 columns sidebar">
+    <div class="row">
+      <div class="avatar small-centered small-14 columns ">
+        <img src="http://i.imgur.com/2mZbTqI.png" width="70" height="70"/>
+        <p class="text-center"><span>Luiz Fonseca</span> <br/>
+        <span>eu@luiz.cc</span></p>
+        <p>
+        . <a href="http://br.linkedin.com/in/runeroniek/">Entrepreneur</a><br/>
+        . <a href="http://github.com/luizfonseca">Developer</a><br/>
+        </p>
+      </div>
+    </div>
+
+     
+  </div>
+
+  </div>
+
   <div class="row">
-    <div class="large-16 columns">
-
-      <nav>
-        <a href="/" class="fui-home menu text-left large-2 columns">&nbsp;</a>
-        <a href="/" class="menu text-left large-12 columns">{{ title }}</a>
-        <a href="/#" class="fui-list menu text-right large-2 columns">&nbsp;</a>
-      </nav>
-
-
-
+    <div class="large-12 large-centered columns">
+      <div class="site posts">
+        {{ content }}
+      </div>
     </div>
   </div>
-</div>
 
 
 
@@ -67,27 +78,24 @@
 
 
 
-<div class="site row posts">
-  <div class="large-16 columns">
-    {{ content }}
-  </div>
-</div>
+
+
 
 <div class="footer row">
-  <div class="contact large-16 columns">
-  </div>
+<div class="contact large-16 columns">
+</div>
 </div>
 
 
 
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-43318071-2', 'luiz.cc');
-  ga('send', 'pageview');
+ga('create', 'UA-43318071-2', 'luiz.cc');
+ga('send', 'pageview');
 
 </script>
 </body>
