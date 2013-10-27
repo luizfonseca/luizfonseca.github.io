@@ -2,7 +2,7 @@
 layout: post 
 title:  "Lessons after 45 days of travel"
 date:   2013-09-30 20:35:12
-categories: life 
+categories: life
 description: "What I've learned after my traveling time from August to September."
 ---
 
